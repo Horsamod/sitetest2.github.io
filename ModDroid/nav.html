@@ -1,0 +1,64 @@
+<nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="#"><span style="color: #019540;">Mod</span><span style="color: #673ab8;">Droid</span></a></div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Software</a></li>
+                <li>
+                    <a href="#" class="desktop-link">Games</a>
+                    <input type="checkbox" id="show-features">
+                    <label for="show-features">Games</label>
+                    <ul>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Arcade</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="desktop-link">App</a>
+                    <input type="checkbox" id="show-services">
+                    <label for="show-services">App</label>
+                    <ul>
+                        <li><a href="#">Antivirus</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Communication</a></li>
+                        <li>
+                            <a href="#" class="desktop-link">More Items</a>
+                            <input type="checkbox" id="show-items">
+                            <label for="show-items">More Items</label>
+                            <ul>
+                                <li><a href="#">Sub Menu 1</a></li>
+                                <li><a href="#">Sub Menu 2</a></li>
+                                <li><a href="#">Sub Menu 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Feedback</a></li>
+                <!-- <div id="theme" class="theme">
+                    <i class="fas fa-moon"></i>
+                </div> -->
+            </ul>
+            <div id="theme" class="theme">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+        
+        <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+        
+    </nav>
+    <script>
+        const body = document.querySelector('body');
+    document.getElementById('theme').onclick = function(){
+        body.classList.toggle('dark');
+    }
+    </script>
+    

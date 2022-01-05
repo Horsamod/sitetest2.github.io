@@ -1,0 +1,171 @@
+@media (min-width: 481px) {
+    .post-item {
+        width: 33.33333%;
+    }
+    .news-item {
+        width: 100%;
+    }
+    .news .news-item {
+        width: 100%;
+    }
+}
+@media (min-width: 620px) {
+    .post-item {
+        width: 25%;
+    }
+    .news-item {
+        width: 100%;
+    }
+    .news .news-item {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .hidden-md-up {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    .post-item {
+        width: 20%;
+    }
+    .news-item {
+        width: 100%;
+    }
+    .news .news-item {
+        width: 50%;
+    }
+    .c-txt{
+        position: relative;
+        min-width: 100%;
+    }
+    .download-count{
+        float: none;
+    }
+    
+}
+@media (max-width: 600px){
+    .wrapper-footer-links{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-social{
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1001px) {
+    .post-item {
+        width: 20%;
+    }
+    .news-item {
+        width: 33.33333%;
+    }
+    .news .news-item {
+        width: 33.33333%;
+    }
+    
+}
+@media (min-width: 1260px) {
+    .container {
+        max-width: 1260px;
+    }
+    
+}
+@media (min-width: 1400px) {
+  .post-item {
+    width: 14.28571%;
+  }
+}
+@media (max-width: 1399px) {
+
+}
+@media (max-width: 1260px) {
+    main .post-content{
+        margin-right: -320px;
+        width: 100%;
+        padding-right: 320px;
+    }
+    main .sidebar{
+        margin-right: 15px;
+    }
+}
+@media (max-width: 1000px) {
+    .page-content {
+        padding-top: 85px;
+    }
+
+    .post__content {
+        padding-bottom: 0;
+    }
+    .post__sidebar .news-list {
+        padding-bottom: 0;
+    }
+    .post__sidebar .news-item__image img {
+        max-height: 160px;
+    }
+    .post--game {
+        background-position: center 100px;
+    }
+}
+@media (max-width: 999px) {
+
+}
+@media (max-width: 900px) {
+    main .sidebar{
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    main .post-content{
+        float: none;
+        width: 100%;
+    }
+    main .post-content{
+        margin-right: inherit;
+        width: 100%;
+        padding-right: inherit;
+    }
+    main .sidebar{
+        margin-right: 15px;
+    }
+}
+@media (max-width: 865px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 767px) {
+    .posts-list {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .post-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+@media (max-width: 480px) {
+    main .sidebar{
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 479px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+@media (max-width: 320px) {
+
+}

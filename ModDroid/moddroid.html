@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModDroid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediascreen.css">
+    <link rel="stylesheet" href="Font/kit-fontawesome-pro/css/pro.min.upgrd.css">
+
+    <script src="script/jquery-1.9.1.js"></script>
+</head>
+
+<body>
+    <div class="wrapper-header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#"><span style="color: #019540;">Mod</span><span style="color: #673ab8;">Droid</span></a></div>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Software</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Games</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Games</label>
+                        <ul>
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Arcade</a></li>
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">App</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">App</label>
+                        <ul>
+                            <li><a href="#">Antivirus</a></li>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">Communication</a></li>
+                            <li>
+                                <a href="#" class="desktop-link">More Items</a>
+                                <input type="checkbox" id="show-items">
+                                <label for="show-items">More Items</label>
+                                <ul>
+                                    <li><a href="#">Sub Menu 1</a></li>
+                                    <li><a href="#">Sub Menu 2</a></li>
+                                    <li><a href="#">Sub Menu 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Feedback</a></li>
+                    <div class="theme">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </ul>
+                
+            </div>
+            
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+            
+        </nav>
+    </div>
+    <main class="Page-wrapper">
+
+        <section class="recent-game">
+            <div class="container">
+                <div class="container-header">
+                    <div class="header-img">
+                        <i class="fas fa-gamepad-alt"></i>
+                    </div>
+                    <div class="header-title">
+                        Last Update Game
+                    </div>
+                </div>
+
+                <div class="post-box">
+                    <div class="post-list">
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/1.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/2.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/3.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/4.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/5.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/6.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/7.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/8.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/9.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/10.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/11.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/2.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/5.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/9.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/4.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/6.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/1.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/8.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <div class="post-item view-all">
+                            <a title="View All" href="#" class="all-link">
+                                <div><i class="fas fa-arrow-right"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ping">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-game">
+            <div class="container">
+                <div class="container-header">
+                    <div class="header-img">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="header-title">
+                        Last Update App
+                    </div>
+                </div>
+
+                <div class="post-box">
+                    <div class="post-list">
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/0bcei91y.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/0bwnglby.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/2ssmlbtg.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/b27n2tz4.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/b82wmqyc.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/cchu5843.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/msudrw2z.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/ovp9g7oq.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/r0bkq00l.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/xrc4cbmy.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/b82wmqyc.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/r0bkq00l.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/0bwnglby.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/ovp9g7oq.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/cchu5843.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/r0bkq00l.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/b82wmqyc.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="post-item">
+                            <a class="post-item__link" href="#">
+                                <div class="post-item__thumb">
+                                    <img src="image/ovp9g7oq.bmp" alt="">
+                                </div>
+                                <div class="post-item__content">
+                                    <div class="post-item__title">
+                                        This Is Title
+                                    </div>
+                                    <div class="post-item__category">
+                                        <div class="c-txt">Video Editors & Player</div>
+                                        <div class="download-count">
+                                            <i class="fa fa-arrow-alt-circle-down"></i><span class="dct">2378</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <div class="post-item view-all">
+                            <a title="View All" href="#" class="all-link">
+                                <div><i class="fas fa-arrow-right"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="ping">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="wrapper-footer">
+        <div class="container">
+            <div class="wrapper-footer-intro">
+                <div class="logo"><a href="#"><h1><span style="color: #019540;">Mod</span><span style="color: #673ab8;">Droid</span></h1></a></div>
+                <p class="wrapper-footer-desc"> Latest news,
+                    games, programs. Here you can download full versions of any games and
+                    programs on your android device, as well as MOD games, completely free
+                    and without registration. 
+                </p>
+            </div>
+            <div class="wrapper-footer-credit">
+                <div class="wrapper-footer-links">
+                    <div class="normal-links">
+                        <a href="#">Feedback</a>
+                        <a href="#">Disclaimer</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" rel="noopener noreferrer nofollow"
+                            target="_blank" itemprop="sameAs"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        <a href="#" rel="noopener noreferrer nofollow" target="_blank" itemprop="sameAs"><i
+                                class="fab fa-vk" aria-hidden="true"></i></a>
+                        <a href="#" rel="noopener noreferrer nofollow" target="_blank" itemprop="sameAs"><i
+                                class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" rel="noopener noreferrer nofollow" target="_blank" itemprop="sameAs"><i
+                                class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" rel="noopener noreferrer nofollow" target="_blank" itemprop="sameAs"><i
+                                class="fa fa-paper-plane fa-1x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-copyright"><span>Copyright ©<b>ModDroid</b> &nbsp;2019-2021&nbsp;</span></div>
+            </div>
+        </div>
+    </footer>
+    <button class="scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
